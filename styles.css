@@ -1,0 +1,95 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+#pic-name-div {
+  box-sizing: border-box;
+  border: 1px black solid;
+  margin-top: 25px;
+  padding: 10px;
+  display: flex;
+  height: 300px;
+  width: auto;
+  background-color: beige;
+}
+
+#pic-name-div > img {
+  border: 1px black solid;
+  height: auto;
+  width: 50%;
+}
+
+#name-info {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#name-info > h3 {
+  margin-top: 0px;
+}
+
+#main-content {
+	box-sizing: border-box;
+	border: 1px black solid;
+	margin-top: 5px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: auto;
+	background-color: white;
+}
+
+.information {
+	box-sizing: border-box;
+	margin-top: 10px;
+	height: 150px;
+	width: auto;
+	padding: 10px;
+}
+
+.universal-style {
+  background-color: yellow;
+  font-size: large;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}

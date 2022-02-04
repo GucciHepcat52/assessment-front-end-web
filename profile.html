@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+    <br />
+    <a href="./home.html"><< Back </a>
+    <main>
+      <div id="pic-name-div">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQFsVrGfGys2yg/profile-displayphoto-shrink_200_200/0/1639976523439?e=1649289600&v=beta&t=N5A-1eoqAlQmSjcVEi92tHl2RTSk1s8qqJzuXt1_Lcw"
+          alt="Profile Picture"
+        />
+        <div id="name-info">
+          <h1>Dallin Breen</h1>
+          <h3>Age: 25</h3>
+          <h3>Orem, UT</h3>
+        </div>
+      </div>
+      <button id="color" style="margin-top: 10px;" class="universal-style">My Favorite Color</button>
+      <button id="place" class="universal-style">My Favorite Place</button>
+      <button id="ritual" class="universal-style">My Favorite Ritual</button>
+      <div id="main-content">
+        <div class="information">
+          <div id="skills-interests-goals">
+            <h3>Skills:</h3>
+          </div>
+          <div id="skills-info">
+            <li>Creative</li>
+            <li>Good at writing</li>
+            <li>Organized</li>
+          </div>
+        </div>
+        <div class="information">
+          <div id="skills-interests-goals">
+            <h3>Interests:</h3>
+          </div>
+          <div id="interests-info">
+            <li>Software Development</li>
+            <li>Crossfit</li>
+            <li>Video Games</li>
+          </div>
+        </div>
+        <div class="information">
+          <div id="skills-interests-goals">
+            <h3>Career Goals:</h3>
+          </div>
+          <div id="goals-info">
+            <p>
+              I really want to grow in software development. I am not sure as to
+              where I will go in my career, but I want to be able to positively
+              impact lives through the software that I write!
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="information">
+          <form>
+            What do you think I am better at:
+            <input
+              type="radio"
+              name="interests"
+              id="gaming"
+              value="Video Games"
+            />
+            <label for="gaming">Video Games</label>
+            <input
+              type="radio"
+              name="interests"
+              id="crossfit"
+              value="CrossFit"
+            />
+            <label for="crossfit">CrossFit</label>
+            <input
+              type="radio"
+              name="interests"
+              id="cleaning"
+              value="Cleaning"
+            />
+            <label for="cleaning">Cleaning</label>
+          </form>
+        </div>
+        <br />
+      </div>
+    </main>
+    <script src="profile.js"></script>
+  </body>
+</html>
